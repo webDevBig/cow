@@ -1,0 +1,298 @@
+.page9 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/page9/p9_bg@2x.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 3vw 0 0;
+    z-index: 16;
+    background-color: #E8E7EC;
+}
+
+
+.page9 .cloud {
+    width: 100%;
+    height: 19vw;
+    background-image: url(../img/page9/p9_clouds@2x.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: 13;
+    top: -6.8vw;
+}
+
+.page9 .sun {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #E14C45;
+    position: relative;
+    z-index: 13;
+    top: -25vw;
+    left: 6vw;
+}
+
+.page9 .tadj {
+    height: 25vw;
+    width: 100%;
+    position: relative;
+    background-image: url(../img/page9/p9_hills@2x.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 101%;
+    object-fit: cover;
+    pointer-events: none;
+    z-index: 13;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    top: 53vw;
+     padding: 8vw 8vw 0 0;
+}
+
+.page9 .rode {
+    height: 28.8vw;
+    width: 100%;
+    position: absolute;
+    background-image: url(../img/page9/p9_rode@2x.png);
+    background-position: 50% bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: #E8E7EC; */
+    object-fit: cover;
+    pointer-events: none;
+    z-index: 14;
+    top: -27.7vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.page9 h1 {
+    color: white;
+    font-size: 2.4vw;
+    font-weight: 900;
+    margin: 0 10vw 0 0;
+}
+
+.page9 h1 span {
+    font-weight: 100;
+}
+
+.page9 .cow_section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: absolute;
+    z-index: 14;
+    padding: 0 0vw 0 0vw;
+    bottom: 22.5vw;
+}
+
+.page9 .cow_section .blue_cow_block {
+    width: 44vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: relative;
+    z-index: 14;
+}
+
+.page9 .cow_section .blue_cow_p3 {
+    width: 100%;
+    height: 18vw;
+    background-image: url(../img/page9/p9_cows@2x.png);
+    background-position: 117% bottom;
+    background-repeat: no-repeat;
+    background-size: 116%;
+    opacity: 1 !important;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.page9 .cow_section .flower1 {
+    position: absolute;
+    left: 12.3vw;
+    margin: 0 0 1.7vw;
+    width: 33px;
+    animation: rotate 18s ease alternate infinite;
+}
+
+.page9 .blue_cow_block .hills {
+    width: 100%;
+    height: 47px;
+    background-image: url(../img/page9/cows_hills@2x.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 111%;
+    object-fit: cover;
+    pointer-events: none;
+    position: absolute;
+    bottom: -9px;
+}
+
+
+
+.page9 .cow_section .china_cow_block {
+    width: 50.6vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;
+    top: 6.5vw;
+    left: 0vw;
+}
+
+.page9 .cow_section .china_cow_p3 {
+    width: 66%;
+    height: 20vw;
+    background-image: url(../img/page9/china_cow@2x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    pointer-events: none;
+    opacity: 1 !important;
+    position: relative;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page9 .cont_sec {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: absolute;
+    z-index: 15;
+    bottom: 0;
+}
+
+.page9 .cont_sec .text_box {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.4vw;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9F8F2;
+    border-radius: 37px 37px 0 0;
+    padding: 3.1vw;
+    position: relative;
+    z-index: 10;
+    margin: 0 -1vw 0 0;
+}
+
+
+.page9 .cont_sec .left_side {
+    position: relative;
+    width: 36%;
+    height: 24vw;
+    z-index: 11;
+    background-image: url(../img/page9/bambuk_left@2x.png);
+    background-position: -47% 58%;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 1vw 0 0;
+}
+
+.page9 .cont_sec .flower1 {
+    position: relative;
+    width: 3vw;
+    animation: rotate 8s ease alternate infinite;
+}
+
+.page9 .cont_sec .flower2 {
+    position: relative;
+    width: 3vw;
+    animation: rotate 5s ease alternate infinite;
+}
+
+.page9 .cont_sec .flower3 {
+    position: relative;
+    width: 2.9vw;
+    animation: rotate 10s ease alternate infinite;
+}
+
+.page9 .cont_sec .flower4 {
+    position: relative;
+    width: 2.9vw;
+    animation: rotate 6s ease alternate infinite;
+}
+
+.page9 .cont_sec .flower5 {
+    position: relative;
+    width: 2.9vw;
+    animation: rotate 6s ease alternate infinite;
+}
+
+.page9 .cont_sec .right_box {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 29%;
+    margin: 0;
+    right: 0vw;
+    height: 27vw;
+    z-index: 11;
+    background-image: url(../img/page9/bambuk_right@2x.png);
+    background-position: 352% 43%;
+    background-repeat: no-repeat;
+    background-size: 101%;
+
+    padding: 0 0 0 2vw;
+
+}
+
+.page9 .left_side .flower1 {
+    left: -11vw;
+}
+
+.page9 .left_side .flower2 {
+    left: -1vw;
+}
+
+.page9 .left_side .flower3 {
+    top: -3vw;
+}
+
+.page9 .left_side .flower4 {
+    top: 3vw;
+    left: 1vw;
+}
+
+.page9 .right_box .flower1 {
+    top: -2vw;
+}
+
+.page9 .right_box .flower2 {
+    left: 9.5vw;
+    top: 5vw;
+}
+
+.page9 .right_box .flower3 {
+    top: 6vw;
+}

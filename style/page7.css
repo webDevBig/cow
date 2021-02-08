@@ -1,0 +1,210 @@
+.page7 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/page7/p7_bg@2x.png);
+    background-position: 30% 15%;
+    background-repeat: no-repeat;
+    background-size: 110%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 5vw 0 0;
+        z-index: 14;
+}
+
+.page7 .cloud {
+    width: 100%;
+    height: 13vw;
+    /* background-color: #D7EBF9; */
+    background-image: url(../img/page7/spain_cloud@2x.png);
+    background-position: 29% 50%;
+    background-repeat: no-repeat;
+    background-size: 108%;
+    position: absolute;
+    z-index: 14;
+    top: -5.8vw;
+}
+
+.page7 .tadj {
+    height: 23vw;
+    width: 100%;
+    position: relative;
+    background-image: url(../img/page7/p7_hills@2x.png);
+    background-position: 98% 50%;
+    background-repeat: no-repeat;
+    background-size: 113%;
+    object-fit: cover;
+    pointer-events: none;
+    z-index: 14;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    top: 40vw;
+}
+
+.page7 .rode {
+    height: 19vw;
+    width: 100%;
+    position: absolute;
+    background-image: url(../img/page7/arena@2x.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    pointer-events: none;
+    z-index: 14;
+    top: -39vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vw 0 0 19vw;
+}
+
+.page7 h1 {
+    color: white;
+    font-size: 2.4vw;
+    font-weight: 900;
+    margin: 0 10vw 0 0;
+}
+
+.page7 h1 span {
+    font-weight: 100;
+}
+
+.page7 .cow_section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: absolute;
+    z-index: 14;
+    padding: 0 0vw 0 0vw;
+    bottom: 21.5vw;
+}
+
+.page7 .cow_section .blue_cow_block {
+    width: 34vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: relative;
+    z-index: 14;
+}
+
+.page7 .cow_section .blue_cow_p3 {
+    width: 100%;
+    height: 21vw;
+    background-image: url(../img/page7/spain_cows@2x.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 153%;
+    opacity: 1 !important;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.page7 .cow_section .flower1 {
+    position: absolute;
+    left: 12.3vw;
+    margin: 0 0 1.7vw;
+    width: 33px;
+    animation: rotate 18s ease alternate infinite;
+}
+
+.page7 .blue_cow_block .hills {
+    width: 100%;
+    height: 47px;
+    background-image: url(../img/page7/spain_cows_hills@2x.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 111%;
+    object-fit: cover;
+    pointer-events: none;
+    position: absolute;
+    bottom: -9px;
+}
+
+.page7 .cow_section .spain_cow_block {
+    width: 67.6vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    top: 4vw;
+    left:-1vw;
+/*    overflow-y: hidden;*/
+}
+
+.page7 .cow_section .spain_cow_p3 {
+    width: 23%;
+    height: 23vw;
+    background-image: url(../img/page7/spain_bull@2x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    pointer-events: none;
+    opacity: 1 !important;
+    position: relative;
+    right:-4vw;
+/*    top: 2vw;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page7 .matador {
+    width: 22%;
+    height: 19.4vw;
+    background-image: url(../img/page7/spain_matador@2x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 2.7vw;
+    left: 2.6vw;
+}
+
+.page7 .cont_sec {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 14;
+    bottom: 0vw;
+}
+
+.page7 .cont_sec .text_box {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.4vw;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: f;
+    background-color: #F9F8F2;
+    border-radius: 37px 37px 0 0;
+    padding: 3.1vw;
+    position: relative;
+    z-index: 12;
+    left: 13.5vw;
+}
+
+.page7 .cont_sec .dust {
+    width: 100%;
+    height: 11.4vw;
+    background-image: url(../img/page7/spain_dust@2x.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: -1.9vw;
+    animation: wave 6s linear infinite;
+}

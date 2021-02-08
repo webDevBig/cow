@@ -1,0 +1,170 @@
+.page1 {
+    background-image: url(../img/page1/p1_bg@2x.png);
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2.5vw 0 33px;
+    position: relative;
+/*    overflow-x: hidden;*/
+}
+
+.page1 .stars_box {
+    width: 80%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shadow_shine {
+    box-shadow: 0px 0px 8px 2px white;
+    width: 2px;
+    height: 3px;
+    border-radius: 50%;
+}
+
+.hills_one {
+    width: 100%;
+    height: 55vh;
+    background-image: url(../img/page1/p1_hills1@2x.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+    bottom: -12vw;
+    animation: hills_from_top 1.3s alternate ease-in-out;
+    object-fit: cover;
+    pointer-events: none;
+    right: 0;
+
+}
+
+.hills_two {
+    width: 100%;
+    height: 47vh;
+    background-image: url(../img/page1/p1_hills2@2x.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: 3;
+    bottom: 3vw;
+    animation: hills_from_left .7s alternate ease-in-out;
+}
+
+.hills_three {
+    width: 83%;
+    height: 33vh;
+    background-image: url(../img/page1/p1_hills3@2x.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: 5;
+    bottom: 0;
+    margin: 0 6.5vw 0 0;
+    padding: 4vw 0 0vw 8vw;
+    animation: hills_from_top2 .8s alternate ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: #001A31;
+}
+
+.hills_three img {
+    width: 27px;
+    margin: 0 3px 0 0;
+}
+
+.hills_three p {
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.hills_three a {
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 21px;
+}
+
+.blue_cow {
+    width: 31vw;
+    height: 27vw;
+    background-image: url(../img/page1/blue_cow@2x.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: 4;
+    bottom: 14vw;
+    margin: 0 0 0 3vw;
+    animation: cow_from_top 1.1s alternate ease-in-out;
+}
+
+
+.grass_box {
+    width: 87%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+    z-index: 4;
+    bottom: 6vw;
+    margin: 0 0 0 4vw;
+    animation: grace_from_top .8s alternate ease-in-out;
+}
+
+.bigGrace1 {
+    transform: rotate(0deg);
+    animation: wind-five 4s ease alternate infinite;
+    position: relative;
+    left: 8.5vw;
+    top: 3vh;
+}
+
+.bigGrace2 {
+    transform: rotate(0deg);
+    animation: wind-three 3s ease alternate infinite;
+    position: relative;
+    left: 12.5vw;
+    top: -15vh;
+}
+
+.bush {
+    width: 58%;
+    left: 0.3vw;
+    top: 0vw;
+    position: relative;
+    animation: wind-two 18s ease alternate infinite;
+}
+
+
+.bigGrace3 {
+    transform: rotate(0deg);
+    animation: wind-seven 6s ease alternate infinite;
+    position: relative;
+    left: -15.6vw;
+    top: -7vw;
+}
+
+.bigGrace4 {
+    transform: rotate(0deg);
+    animation: wind-four 5s ease alternate infinite;
+    position: relative;
+    left: -16.4vw;
+    top: -7vw;
+}
+
+.bigGrace5 {
+    transform: rotate(0deg);
+    animation: wind-seven 4s ease alternate infinite;
+    position: relative;
+    left: -9.6vw;
+    top: -2vw;
+}

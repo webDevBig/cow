@@ -1,0 +1,272 @@
+.page6 {
+    width: 100%;
+    height: 100vh;
+    background-color: #D7EBF9;
+    background-image: url(../img/page6/p6_bg@2x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 5vw 0 0;
+}
+
+.page6 .cloud {
+    width: 100%;
+    height: 18vw;
+    /*    background-color: #D7EBF9;*/
+    background-image: url(../img/page6/greece_cloud@2x.png);
+    background-position: 47% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: 14;
+    top: -5vw;
+}
+
+.page6 .tadj {
+    height: 21vw;
+    width: 70%;
+    position: relative;
+    background-image: url(../img/page6/greece_mount@2x.png);
+    background-position: -37% 6%;
+    background-repeat: no-repeat;
+    background-size: 101%;
+    object-fit: cover;
+    pointer-events: none;
+    z-index: 14;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    top: 36vw;
+    padding: 7vw 0vw 0 0;
+}
+
+.page6 .rode {
+    height: 32vw;
+    width: 100%;
+    position: absolute;
+    background-image: url(../img/page6/greece_rode@2x.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    pointer-events: none;
+    z-index: 14;
+    top: 25vw;
+}
+
+.page6 h1 {
+    color: white;
+    font-size: 2.4vw;
+    font-weight: 900;
+    margin: 0 10vw 0 0;
+}
+
+.page6 h1 span {
+    font-weight: 100;
+}
+
+.page6 .cow_section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: absolute;
+    z-index: 14;
+    padding: 0 0vw 0 0vw;
+    bottom: 17.5vw;
+}
+
+.page6 .tree_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+}
+
+.page6 .tree_box img {
+    position: relative;
+    right: 0;
+    opacity: 1 !important;
+}
+
+.page6 .tree_box img:first-of-type {
+    width: 27vw;
+    z-index: 13;
+}
+
+.page6 .tree_box .tree {
+    z-index: 12;
+    position: absolute;
+    left: 0;
+    bottom: 10vw;
+    width: 17vw;
+}
+
+.page6 .tree_box .tree[data-aos=fade-right] {
+    transform: translate3d(-400px, 0, 0);
+}
+
+.page6 .tree_box .tree[data-aos^=fade][data-aos^=fade].aos-animate {
+    opacity: 1;
+    transform: translateZ(0);
+}
+
+.page6 .tree_box img:first-of-type[data-aos=fade-right] {
+    transform: translate3d(-600px, 0, 0);
+}
+
+.page6 .tree_box img:first-of-type[data-aos^=fade][data-aos^=fade].aos-animate {
+    opacity: 1;
+    transform: translateZ(0);
+}
+
+.page6 .tadj .tree_box {
+    justify-content: flex-end;
+    align-items: flex-end;
+    top: -0.2vw;
+    right: 0;
+}
+
+.page6 .tadj .tree_box img:first-of-type {
+    width: 12vw;
+}
+
+.page6 .tadj .tree_box .church {
+    position: absolute;
+    z-index: 15;
+    right: 0;
+}
+
+.page6 .tadj .tree_box img:first-of-type[data-aos=fade-left] {
+
+    opacity: 1;
+    transform: translateZ(0);
+}
+
+.page6 .tadj .tree_box img:first-of-type[data-aos^=fade][data-aos^=fade].aos-animate {
+    transform: translate3d(300px, 0, 0);
+}
+
+
+.page6 .cow_section .blue_cow_block {
+    width: 49vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: relative;
+    z-index: 14;
+}
+
+.page6 .cow_section .blue_cow_p3 {
+    width: 88%;
+    height: 20vw;
+    background-image: url(../img/page6/greece_cows@2x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1 !important;
+    position: relative;
+    left: 6vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.page6 .cow_section .flower1 {
+    position: absolute;
+    left: 18.9vw;
+    margin: 0 0 1.7vw;
+    width: 43px;
+    animation: rotate 18s ease alternate infinite;
+}
+
+.page6 .blue_cow_block .hills {
+    width: 95%;
+    height: 40px;
+    background-image: url(../img/page6/greece_cows_hills@2x.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 111%;
+    object-fit: cover;
+    pointer-events: none;
+    position: absolute;
+    bottom: -1px;
+}
+
+.page6 .cow_section .greece_cow_block {
+    width: 50.6vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;
+    top: 1vw;
+    right: 3vw;
+}
+
+.page6 .cow_section .greece_cow_p3 {
+    width: 73%;
+    height: 30vw;
+    background-image: url(../img/page6/greece_bull@2x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    pointer-events: none;
+    opacity: 1 !important;
+    position: relative;
+    /*    right: -20vw;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 1vw;
+}
+
+.page6 .greece_cow_block .man {
+    width: 24%;
+    height: 21.9vw;
+    background-image: url(../img/page6/greece_man@2x.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    pointer-events: none;
+    position: absolute;
+    bottom: -2vw;
+    right: 4vw;
+}
+
+.page6 .cont_sec {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    z-index: 14;
+    bottom: 0vw;
+}
+
+.page6 .cont_sec .text_box {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.4vw;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: f;
+    background-color: #F9F8F2;
+    border-radius: 37px 37px 0 0;
+    padding: 3.1vw;
+    position: relative;
+    z-index: 12;
+    left: 8.5vw;
+}

@@ -1,0 +1,270 @@
+@import url(page1.css);
+@import url(page2.css);
+@import url(page3.css);
+@import url(page4.css);
+@import url(page5.css);
+@import url(page6.css);
+@import url(page7.css);
+@import url(page8.css);
+@import url(page9.css);
+@import url(page10.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html{
+    overflow-x: hidden;
+}
+
+body {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow-x: hidden;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    right: 42px;
+    top: 45px;
+    height: 49vw;
+    color: white;
+    font-size: 24px;
+    z-index: 100;
+}
+
+.menu .share_box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.menu .share_box .f {
+    background-image: url(../img/f_img@2x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 18px;
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+    margin: 0 15px 0 0;
+}
+
+.menu .pages_list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 28px;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu .fa-chevron-up {
+    margin: 0 0 25px;
+    cursor: pointer;
+}
+
+.menu .fa-chevron-down {
+    margin: 18px 0 0;
+    cursor: pointer;
+}
+
+.menu .nav-item {
+    width: 56px;
+    height: 56px;
+    margin: 0 0 5px 0;
+}
+
+.menu .page_icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #001A31;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: width 1s, height 1s;
+    border: 1px solid white;
+}
+
+.menu a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid transparent;
+    transition: all .1s;
+    border-radius: 50%;
+}
+
+.menu a.active {
+    border: 3px solid white;
+}
+
+.menu a.active .page_icon {
+    width: 100%;
+    height: 100%;
+}
+.fa-chevron-up
+{
+    display: none;
+}
+
+.section1 {
+    width: 100%;
+    background-image: url(../img/page_bg@2x.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page1,
+.page2,
+.page3,
+.page4,
+.page5,
+.page6,
+.page7,
+.page8,
+.page9,
+.page10 {
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /*    overflow-x: hidden;*/
+}
+
+
+
+
+.sec_betwen .grass_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    bottom: 25.6vw;
+    margin: 0;
+    right: 0;
+    z-index: 8;
+    animation: none;
+    position: absolute;
+    background-image: url(../img/page1/bush2@2x.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 58%;
+    height: 20.6vw;
+}
+
+.sec_betwen {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: absolute;
+    z-index: 8;
+    margin: -5vw 0 0;
+    right: 0;
+}
+
+.cloud_p3 {
+    width: 100%;
+    height: 33vw;
+    position: absolute;
+    background-image: url(../img/page3/cloud_p3@2x.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    pointer-events: none;
+    z-index: 9;
+}
+
+.sec_betwen .grace_sec1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    top: 11vw;
+    left: -6vw;
+}
+
+.sec_betwen .grace_sec2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    top: -7vw;
+    left: -3vw;
+}
+
+.sec_betwen .bigGrace1 {
+    transform: rotate(22deg);
+    animation: wind-one 3s ease alternate infinite;
+    position: relative;
+    height: 5vw;
+    left: 0;
+    top: 3vw;
+}
+
+.sec_betwen .bigGrace11 {
+    transform: rotate(22deg);
+    animation: wind-one 3s ease alternate infinite;
+    position: relative;
+    height: 5.3vw;
+    left: -3vw;
+    top: 0;
+}
+
+.sec_betwen .bigGrace2 {
+    transform: rotate(22deg);
+    animation: wind-one 3s ease alternate infinite;
+    position: relative;
+    left: -7vw;
+    top: 1vw;
+    height: 14vw;
+}
+
+.sec_betwen .bigGrace3 {
+    left: 0;
+    top: 0;
+    position: relative;
+    height: 20vw;
+}
+
+.sec_betwen .bigGrace4 {
+    left: -1vw;
+    top: 0;
+    position: relative;
+    height: 23vw;
+}
+
+.sec_betwen .bigGrace5 {
+    left: -6.5vw;
+    top: 0.5vw;
+    position: relative;
+    height: 18vw;
+}
+
+

@@ -1,0 +1,87 @@
+
+.page2 {
+    background-image: url(../img/page2/p2_bg@2x.png);
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5vw 0 0;
+    position: relative;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    pointer-events: none;
+    overflow-x: hidden;
+}
+
+.cloud_p2 {
+    width: 100%;
+    height: 34vw;
+    background-image: url(../img/page2/cloud_p2@2x.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    pointer-events: none;
+    position: absolute;
+    z-index: 6;
+    margin: -8vw 0 0 0vw;
+}
+
+.page2 .stars_box {
+    width: 70%;
+    position: relative;
+}
+
+.page2 .cont {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    z-index: 7;
+    top: -4vw;
+}
+
+.page2 .cont .text_box {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.4vw;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9F8F2;
+    border: 1px solid black;
+    border-radius: 37px;
+    padding: 30px 47px;
+    position: relative;
+    left: -4vw;
+}
+
+.page2 .cont .text_box img {
+    width: 68px;
+}
+
+.page2 .cont h1 {
+    font-size: 3.1vw;
+    font-weight: 900;
+    margin-top: 5px;
+}
+
+.page2 .cont .stars_box {
+    width: 29%;
+    padding: 9vw 0 0;
+}
+
+.page2 .cont .stars_box2 {
+    padding: 0 0 0vw 0;
+}
+
+.page2 .cont p {
+    margin: 16px 0;
+}

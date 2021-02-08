@@ -1,0 +1,223 @@
+.page8 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/page8/p8_bg@2x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 5vw 0 0;
+    z-index: 15;
+}
+
+
+.page8 .cloud {
+    width: 100%;
+    height: 14vw;
+    background-image: url(../img/page8/p8_clouds@2x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: 13;
+    top: -5.8vw;
+}
+
+.page8 .tadj {
+    height: 20vw;
+    width: 100%;
+    position: relative;
+    background-image: url(../img/page8/p8_hills@2x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: cover;
+    pointer-events: none;
+    z-index: 13;
+    display: flex;
+       justify-content: center;
+    align-items: center;
+    top: 55vw;
+    padding: 0 0 1vw 33vw;
+}
+
+.page8 .rode {
+    height: 30.5vw;
+    width: 100%;
+    position: absolute;
+    background-image: url(../img/page8/p8_rode@2x.png);
+    background-position: 50% 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    pointer-events: none;
+    z-index: 14;
+    top: -21.5vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.page8 .house {
+    background-image: url(../img/page8/house@2x.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20vw;
+    height: 10vw;
+    position: absolute;
+    top: -6vw;
+    right: 34vw;
+}
+.page8 .fence {
+    background-image: url(../img/page8/fence@2x.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 105%;
+    width: 100%;
+    height: 12vw;
+    position: absolute;
+    top: 23vw;
+    right: 0;
+    z-index: 15;
+}
+
+.page8 h1 {
+    color: white;
+    font-size: 2.4vw;
+    font-weight: 900;
+    margin: 0 10vw 0 0;
+}
+
+.page8 h1 span {
+    font-weight: 100;
+}
+
+.page8 .cow_section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: absolute;
+    z-index: 15;
+    padding: 0 0vw 0 0vw;
+    bottom: 22vw;
+}
+
+.page8 .cow_section .blue_cow_block {
+    width:43vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: relative;
+    z-index: 15;
+}
+
+.page8 .cow_section .blue_cow_p3 {
+    width: 100%;
+    height: 21vw;
+    background-image: url(../img/page8/p8_cows@2x.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size:119%;
+    opacity: 1!important;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.page8 .cow_section .flower1 {
+    position: absolute;
+    left: 12.3vw;
+    margin: 0 0 1.7vw;
+    width: 33px;
+    animation: rotate 18s ease alternate infinite;
+}
+
+.page8 .blue_cow_block .hills {
+    width: 100%;
+    height: 47px;
+    background-image: url(../img/page8/cows_hills@2x.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 111%;
+    object-fit: cover;
+    pointer-events: none;
+    position: absolute;
+    bottom: -9px;
+}
+
+.page8 .cow_section .american_cow_block {
+    width:47.6vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    position: relative;
+    top: 10vw;
+    left: 0vw;
+    z-index: 16;
+}
+
+.page8 .cow_section .american_cow_p3 {
+      width: 51%;
+    height: 25vw;
+    background-image: url(../img/page8/american_cow@2x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    pointer-events: none;
+    opacity: 1 !important;
+    position: relative;
+    right: -21vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.page8 .cont_sec {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 16;
+    bottom: 0vw;
+}
+
+.page8 .cont_sec .text_box {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.4vw;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: f;
+    background-color: #F9F8F2;
+    border-radius: 37px 37px 0 0;
+    padding: 3.1vw;
+    position: relative;
+    z-index: 17;
+    left: 16.5vw;
+}
+
+.page8 .cont_sec .dust {
+       width: 68%;
+    height: 11.8vw;
+    background-image: url(../img/page8/p8_dust@2x.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    z-index: 16;
+    top: -3.9vw;
+    animation: wave2 2s linear infinite;
+}

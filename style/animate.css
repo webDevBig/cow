@@ -1,0 +1,199 @@
+@keyframes hills_from_left {
+    0% {
+        left: -100%;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes hills_from_top {
+    0% {
+        bottom: -100%;
+        opacity: 0;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        bottom: -12vw;
+    }
+}
+
+@keyframes hills_from_top2 {
+    0% {
+        bottom: -80%;
+        opacity: 0;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        bottom: 0vw;
+    }
+}
+
+@keyframes grace_from_top {
+    0% {
+        bottom: -70%;
+        opacity: 0;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        bottom: 6vw;
+    }
+}
+
+@keyframes cow_from_top {
+    0% {
+        bottom: -80%;
+        opacity: 0;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        bottom: 14vw;
+    }
+}
+
+@keyframes wind-three {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(5deg);
+    }
+}
+
+@keyframes wind-two {
+    0% {
+        transform: rotate(-2deg);
+    }
+
+    100% {
+        transform: rotate(2deg);
+    }
+}
+
+@keyframes wind-five {
+    0% {
+        transform: rotate(5deg);
+    }
+
+    100% {
+        transform: rotate(-7deg);
+    }
+}
+
+@keyframes wind-seven {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(4deg);
+    }
+}
+
+@keyframes wind-four {
+    0% {
+        transform: rotate(5deg);
+    }
+
+    100% {
+        transform: rotate(-7deg);
+    }
+}
+
+@keyframes wind-one {
+    0% {
+        transform: rotate(22deg);
+    }
+
+    100% {
+        transform: rotate(27deg);
+    }
+}
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate2 {
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+@keyframes wind-cactus1 {
+    0% {
+        transform: rotate(-2deg);
+    }
+
+    100% {
+        transform: rotate(1deg);
+    }
+}
+@keyframes wind-cactus2 {
+    0% {
+        transform: rotate(1deg);
+    }
+
+    100% {
+        transform: rotate(-1deg);
+    }
+}
+@keyframes wind-cactus3 {
+    0% {
+        transform: rotate(1deg);
+    }
+
+    100% {
+        transform: rotate(-2deg);
+    }
+}
+@keyframes wave {
+    0% {
+        background-position: 0;
+    }
+
+    100% {
+        background-position: 1920px;
+    }
+}
+@keyframes wave2 {
+    0%
+    {
+        left: 15vw;
+    }
+     50%
+    {
+        left: 25vw;
+    }
+     100%
+    {
+        left: 15vw;
+    }
+/*
+    0% {
+        background-position: 0;
+    }
+
+    0% {
+        background-position: 1305px;
+    }
+*/
+}
