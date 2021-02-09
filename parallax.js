@@ -25,19 +25,23 @@
 
 
 var h = document.documentElement.clientHeight;
+//var ph = document.getElementsByClassName("page1").clientHeight;
+var ph = document.getElementById('flow').clientHeight;
+
+console.log(ph);
 var p = window.pageYOffset;
 var scrolled;
-var five = 5 * h;
-var seven = 7 * h;
-var eight = 8 * h + 0.5 * h;
+var five = 5 * ph;
+var seven = 7 * ph;
+var eight = 8 * ph + 0.5 * h;
 window.onscroll = function () {
     scrolled = window.pageYOffset || document.documentElement.scrollTop;
-      if (scrolled > (h/2)) {
+    if (scrolled > (ph / 2)) {
         $('.fa-chevron-up').css({
             display: 'flex'
         });
     }
-    if (scrolled > h) {
+    if (scrolled > ph) {
         $(".share_box").css({
             color: "#A7A9AC"
         });
@@ -52,7 +56,7 @@ window.onscroll = function () {
             display: 'flex'
         });
     }
-    if (h > scrolled) {
+    if (ph > scrolled) {
         $(".share_box").css({
             color: "white"
         });
@@ -103,16 +107,18 @@ $(document).ready(function () {
     $('.fa-chevron-down').click(function () {
 
         var win = $(window).scrollTop() + $(window).innerHeight();
+        var ph = $(window).scrollTop() + document.getElementById('flow').clientHeight;
         $('body,html').animate({
-            scrollTop: win
+            scrollTop: ph
         }, 1000);
         return false;
     });
     $('.fa-chevron-up').click(function () {
 
         var win = $(window).scrollTop() - $(window).innerHeight();
+        var ph = $(window).scrollTop() - document.getElementById('flow').clientHeight;
         $('body,html').animate({
-            scrollTop: win
+            scrollTop: ph
         }, 1000);
         return false;
     });

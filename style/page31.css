@@ -60,12 +60,11 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: flex-end;
     position: relative;
     z-index: 9;
     right: 0;
-    /*    padding: 0 19vw 0 0vw;*/
 }
 
 .page3 .cow_section .blue_cow_block {
@@ -112,10 +111,12 @@
     object-fit: cover;
     pointer-events: none;
     opacity: 1 !important;
-    position: absolute;
-    /*        right: -5vw;*/
+    position: relative;
+    /*    right: -5vw;*/
     right: 13vw;
 }
+
+
 
 .page3 .cont_sec {
     width: 100%;
@@ -172,4 +173,11 @@
     z-index: 9;
     width: 71%;
     opacity: 1 !important;
+}
+
+.fix_cow {
+    width: 40.6vw;
+    height: 20.6vw;
+    position: fixed;
+    bottom: 0;
 }

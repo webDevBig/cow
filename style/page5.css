@@ -44,20 +44,20 @@
 }
 
 .page5 .rode {
-    height: 48vw;
+    height: 33vw;
     width: 100%;
     position: absolute;
-    background-image: url(../img/page5/mexico_rode@2x.png);
+    background-image: url(../img/page5/mexico_rode.png);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
     pointer-events: none;
     z-index: 12;
-    top: -14.2vw;
+    top: -0.2vw;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: flex-start;
     padding: 0 9vw 1vw 0;
 }
 
