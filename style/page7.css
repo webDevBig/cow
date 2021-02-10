@@ -4,13 +4,13 @@
     background-image: url(../img/page7/p7_bg@2x.png);
     background-position: 30% 15%;
     background-repeat: no-repeat;
-    background-size: 110%;
+    background-size: cover;
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     padding: 5vw 0 0;
-        z-index: 14;
+/*        z-index: 14;*/
 }
 
 .page7 .cloud {
@@ -22,7 +22,7 @@
     background-repeat: no-repeat;
     background-size: 108%;
     position: absolute;
-    z-index: 14;
+/*    z-index: 14;*/
     top: -5.8vw;
 }
 
@@ -36,7 +36,7 @@
     background-size: 113%;
     object-fit: cover;
     pointer-events: none;
-    z-index: 14;
+/*    z-index: 14;*/
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -53,7 +53,7 @@
     background-size: cover;
     object-fit: cover;
     pointer-events: none;
-    z-index: 14;
+/*    z-index: 14;*/
     top: -39vw;
     display: flex;
     justify-content: center;
@@ -95,12 +95,12 @@
 }
 
 .page7 .cow_section .blue_cow_p3 {
-    width: 100%;
-    height: 21vw;
+   width: 84%;
+    height: 24vw;
     background-image: url(../img/page7/spain_cows@2x.png);
     background-position: right bottom;
     background-repeat: no-repeat;
-    background-size: 153%;
+    background-size: 156%;
     opacity: 1 !important;
     position: relative;
     display: flex;
@@ -117,16 +117,16 @@
 }
 
 .page7 .blue_cow_block .hills {
-    width: 100%;
+    width: 93%;
     height: 47px;
     background-image: url(../img/page7/spain_cows_hills@2x.png);
     background-position: right;
     background-repeat: no-repeat;
-    background-size: 111%;
+    background-size: 118%;
     object-fit: cover;
     pointer-events: none;
     position: absolute;
-    bottom: -9px;
+    bottom: -3px;
 }
 
 .page7 .cow_section .spain_cow_block {
@@ -205,6 +205,6 @@
     background-position: center;
     background-size: cover;
     position: absolute;
-    top: -1.9vw;
+    top: -8.9vw;
     animation: wave 6s linear infinite;
 }

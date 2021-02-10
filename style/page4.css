@@ -8,7 +8,7 @@
     justify-content: flex-start;
     padding: 5vw 0 0;
     margin: 0;
-    z-index: 9;
+    /*    z-index: 9;*/
     right: 0;
     /*    overflow: hidden;*/
 }
@@ -36,14 +36,14 @@
     background-size: cover;
     object-fit: cover;
     pointer-events: none;
-/*    z-index: 8;*/
+    /*    z-index: 8;*/
     display: flex;
     justify-content: flex-end;
     top: 16.2vw;
 }
 
 .page4 .rode {
-    height: 24vw;
+    height: 19vw;
     width: 100%;
     position: absolute;
     background-image: url(../img/page4/p4_hills@2x.png);
@@ -52,12 +52,12 @@
     background-size: cover;
     object-fit: cover;
     pointer-events: none;
-/*    z-index: 9;*/
+    /* z-index: 9; */
     top: -13vw;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 0 11vw 3vw 0;
+    padding: 0 11vw 0vw 0;
 }
 
 .page4 h1 {
@@ -77,9 +77,9 @@
     justify-content: space-between;
     align-items: flex-end;
     position: absolute;
-/*    z-index: 10;*/
+    /*    z-index: 10;*/
     padding: 0 0vw 0 0vw;
-    bottom: 17vw;
+    bottom: 16.5vw;
 }
 
 .page4 .cow_section .blue_cow_block {
@@ -89,8 +89,10 @@
     justify-content: flex-end;
     align-items: flex-start;
     position: relative;
+    z-index: 9;
 }
 
+/*
 .page4 .cow_section .blue_cow_p3 {
     width: 100%;
     height: 29.6vw;
@@ -102,12 +104,24 @@
     pointer-events: none;
     opacity: 1 !important;
 }
+*/
+.page4 .cow_section .blue_cow_p3 {
+    width: 76%;
+    height: 29.6vw;
+    background-image: url(../img/page4/brown_cow.png);
+    background-position: -98% 101%;
+    background-repeat: no-repeat;
+    background-size: 91%;
+    object-fit: cover;
+    pointer-events: none;
+    opacity: 1 !important;
+}
 
 .page4 .blue_cow_block .hills {
-    width: 87%;
+    width: 85%;
     height: 40px;
     background-image: url(../img/page4/india_hills@2x.png);
-    background-position: 65% 50%;
+    background-position: 79% 50%;
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
@@ -147,7 +161,7 @@
 
 .page4 .flower1 {
     position: absolute;
-    left: 9.5vw;
+    left: 10.5vw;
     margin: 0 0 4vw;
     width: 47px;
     animation: rotate 18s ease alternate infinite;
@@ -157,7 +171,7 @@
     position: absolute;
     right: 4.2vw;
     width: 38px;
-    margin: 0 0 11vw;
+    margin: 0 0 10vw;
     animation: rotate2 18s ease alternate infinite;
 }
 
@@ -171,7 +185,7 @@
     object-fit: cover;
     pointer-events: none;
     position: absolute;
-    bottom: -11px;
+    bottom: 2px;
     left: 0;
 }
 
@@ -182,7 +196,7 @@
     justify-content: center;
     align-items: flex-start;
     position: absolute;
-/*    z-index: 10;*/
+    /*    z-index: 10;*/
     bottom: -0.4vw;
 }
 
@@ -203,14 +217,14 @@
 }
 
 .page4 .left_box {
-    width: 37%;
+    width: 40%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     position: absolute;
     left: 0;
-    top: 1vw;
+    /*    top: 1vw;*/
 }
 
 .page4 .left_box img {
@@ -219,7 +233,7 @@
 
 .page4 .left_box .flower {
     position: absolute;
-    bottom: -1vw;
+    bottom: 0vw;
     left: 0;
     background-image: url(../img/page4/india_flower_left@2x.png);
     background-position: 131% 0%;
@@ -242,12 +256,12 @@
 
 .page4 .right_box .bigGrace3 {
     left: 8.9vw;
-    top: 3vw;
+    top: 0vw;
 }
 
 .page4 .right_box .bigGrace4 {
     left: 8vw;
-    top: 2vw;
+    top: -1vw;
 }
 
 .page4 .cont_sec .right_box {
@@ -267,14 +281,14 @@
 
 .page4 .right_box .flower {
     position: absolute;
-    bottom: -3vw;
+    bottom: 0vw;
     left: 0;
     background-image: url(../img/page4/india_flower@2x.png);
     background-position: -416% 0%;
     background-repeat: no-repeat;
     background-size: 101%;
     width: 100%;
-    height: 11vw;
+    height: 14vw;
 }
 
 .page4 .cont_sec .right_box .bigGrace1 {

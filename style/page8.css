@@ -10,7 +10,7 @@
     flex-direction: column;
     justify-content: flex-start;
     padding: 5vw 0 0;
-    z-index: 15;
+/*    z-index: 15;*/
 }
 
 
@@ -22,7 +22,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
-    z-index: 13;
+/*    z-index: 13;*/
     top: -5.8vw;
 }
 
@@ -36,7 +36,7 @@
     background-size: 100%;
     object-fit: cover;
     pointer-events: none;
-    z-index: 13;
+/*    z-index: 13;*/
     display: flex;
        justify-content: center;
     align-items: center;
@@ -54,7 +54,7 @@
     background-size: cover;
     object-fit: cover;
     pointer-events: none;
-    z-index: 14;
+/*    z-index: 14;*/
     top: -21.5vw;
     display: flex;
     justify-content: flex-end;
@@ -76,13 +76,13 @@
     background-image: url(../img/page8/fence@2x.png);
     background-position: top left;
     background-repeat: no-repeat;
-    background-size: 105%;
+    background-size: 100%;
     width: 100%;
     height: 12vw;
     position: absolute;
     top: 23vw;
     right: 0;
-    z-index: 15;
+    z-index: 7;
 }
 
 .page8 h1 {
@@ -119,12 +119,12 @@
 }
 
 .page8 .cow_section .blue_cow_p3 {
-    width: 100%;
-    height: 21vw;
+       width: 84%;
+    height: 17vw;
     background-image: url(../img/page8/p8_cows@2x.png);
     background-position: right bottom;
     background-repeat: no-repeat;
-    background-size:119%;
+    background-size: 119%;
     opacity: 1!important;
     position: relative;
     display: flex;
@@ -141,7 +141,7 @@
 }
 
 .page8 .blue_cow_block .hills {
-    width: 100%;
+   width: 94%;
     height: 47px;
     background-image: url(../img/page8/cows_hills@2x.png);
     background-position: right;
@@ -150,7 +150,7 @@
     object-fit: cover;
     pointer-events: none;
     position: absolute;
-    bottom: -9px;
+    bottom: -12px;
 }
 
 .page8 .cow_section .american_cow_block {
@@ -218,6 +218,6 @@
     background-size: cover;
     position: absolute;
     z-index: 16;
-    top: -3.9vw;
+    top: -4.9vw;
     animation: wave2 2s linear infinite;
 }

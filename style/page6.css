@@ -23,7 +23,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
-    z-index: 14;
+/*    z-index: 14;*/
     top: -5vw;
 }
 
@@ -37,7 +37,7 @@
     background-size: 101%;
     object-fit: cover;
     pointer-events: none;
-    z-index: 14;
+/*    z-index: 14;*/
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -55,7 +55,7 @@
     background-size: cover;
     object-fit: cover;
     pointer-events: none;
-    z-index: 14;
+/*    z-index: 14;*/
     top: 25vw;
 }
 
@@ -130,12 +130,12 @@
 .page6 .tadj .tree_box {
     justify-content: flex-end;
     align-items: flex-end;
-    top: -0.2vw;
+    bottom: 3vw;
     right: 0;
 }
 
 .page6 .tadj .tree_box img:first-of-type {
-    width: 12vw;
+    width: 11vw;
 }
 
 .page6 .tadj .tree_box .church {
@@ -166,7 +166,7 @@
 }
 
 .page6 .cow_section .blue_cow_p3 {
-    width: 88%;
+    width: 70%;
     height: 20vw;
     background-image: url(../img/page6/greece_cows@2x.png);
     background-position: center;
@@ -240,8 +240,8 @@
     object-fit: cover;
     pointer-events: none;
     position: absolute;
-    bottom: -2vw;
-    right: 4vw;
+   bottom: -3vw;
+    right: 2vw;
 }
 
 .page6 .cont_sec {

@@ -14,7 +14,7 @@
     background-size: cover;
     object-fit: cover;
     pointer-events: none;
-    overflow-x: hidden;
+/*    overflow-x: hidden;*/
 }
 
 .cloud_p2 {

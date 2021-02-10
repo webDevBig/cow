@@ -11,24 +11,25 @@
     justify-content: flex-start;
     padding: 0vw 0 0;
     right: 0;
+    /*    z-index: 7;*/
 }
 
 
 .page5 .cloud {
     width: 100%;
-    height: 28vw;
+    height: 26vw;
     background-image: url(../img/page5/p5_clouds@2x.png);
     background-position: 80% 50%;
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
-    z-index: 11;
-    top: -4.3vw;
+    /* z-index: 11; */
+    top: -5.2vw;
     right: 0;
 }
 
 .page5 .tadj {
-    height: 20vw;
+    height: 21vw;
     width: 100%;
     position: relative;
     background-image: url(../img/page5/p5_hills@2x.png);
@@ -37,7 +38,7 @@
     background-size: cover;
     object-fit: cover;
     pointer-events: none;
-    z-index: 12;
+    /*    z-index: 12;*/
     display: flex;
     justify-content: flex-end;
     top: 33vw;
@@ -53,12 +54,28 @@
     background-size: cover;
     object-fit: cover;
     pointer-events: none;
-    z-index: 12;
-    top: -0.2vw;
+    /*    z-index: 12;*/
+    top: 0.8vw;
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
     padding: 0 9vw 1vw 0;
+}
+
+.page5 .mexican {
+    height: 21.3vw;
+    width: 35vw;
+    position: absolute;
+    background-image: url(../img/page5/mexican.png);
+    background-position: -415% 47%;
+    background-repeat: no-repeat;
+    background-size: 102%;
+    right: 0;
+    top: -11vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0vw 1.5vw 0vw 0vw;
 }
 
 .page5 h1 {
@@ -78,7 +95,7 @@
     justify-content: space-between;
     align-items: flex-end;
     position: absolute;
-    z-index: 12;
+    /*    z-index: 12;*/
     padding: 0 31vw 0 0vw;
     bottom: 17vw;
     right: 0;
@@ -95,7 +112,7 @@
 }
 
 .page5 .cow_section .blue_cow_p3 {
-    width: 100%;
+    width: 73%;
     height: 27.6vw;
     background-image: url(../img/page5/p5_cows@2x.png);
     background-position: 101% 101%;
@@ -105,6 +122,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    z-index: 8;
 }
 
 .page5 .cow_section .flower1 {
@@ -125,8 +143,9 @@
     object-fit: cover;
     pointer-events: none;
     position: absolute;
-    bottom: -7px;
-    right: 0;
+    bottom: -9px;
+    left: 0;
+    z-index: 10;
 }
 
 .page5 .cow_section .mexico_cow_block {
@@ -214,12 +233,12 @@
 }
 
 .page5 .left_box .cactus1 {
-    width: 63%;
-    height: 23vw;
+   width: 55%;
+    height: 19vw;
     background-image: url(../img/page5/cactus_mexico_left1@2x.png);
     background-position: 92% 50%;
     background-repeat: no-repeat;
-    background-size: 111%;
+    background-size: 107%;
     position: relative;
     z-index: 14;
     animation: wind-cactus1 3s ease alternate infinite;
@@ -240,7 +259,7 @@
 
 
 .page5 .cont_sec .right_box {
-    width: 23%;
+   width: 24%;
     height: 20vw;
     display: flex;
     flex-direction: row;
@@ -250,9 +269,9 @@
     padding: 0 0 0.8vw;
     right: 0;
     background-image: url(../img/page5/cactus_mexico_right@2x.png);
-    background-position: -321% 50%;
+    background-position: -24% 50%;
     background-repeat: no-repeat;
-    background-size: 102%;
+    background-size: 103%;
     animation: wind-cactus3 5s ease alternate infinite;
     overflow: hidden;
 }
