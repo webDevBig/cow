@@ -1,7 +1,7 @@
 var h = document.documentElement.clientHeight;
 var ph = document.getElementById('flow').clientHeight;
 
-console.log(h);
+//console.log(h);
 var p = window.pageYOffset;
 var scrolled2;
 var one2 = ph + (ph * 0.8);
@@ -14,7 +14,7 @@ var seven2 = 7 * ph + (ph * 0.5);
 var eight2 = 8 * ph + (0.5 * h);
 window.onscroll = function () {
     scrolled2 = window.pageYOffset || document.documentElement.scrollTop;
-    console.log(scrolled2);
+//    console.log(scrolled2);
 
     if (scrolled2 > ph / 2) {
         $('.fa-chevron-up').css({
