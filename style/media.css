@@ -257,7 +257,7 @@
     }
 
     .sec_betwen {
-        margin: -15vw 0 0;
+        margin: -11vw 0 0 ;
     }
 
     .sec_betwen .grass_box {
@@ -1081,7 +1081,7 @@
     }
 
     .sec_betwen {
-        margin: -11vw 0 0;
+        margin: -8vw 0 0;
     }
 
     .sec_betwen .grass_box {
@@ -1091,14 +1091,18 @@
     }
 
     .sec_betwen .bigGrace1 {
-        height: 4vw;
-        left: 0.5vw;
+        height: 6vw;
+        left: -0.5vw;
         top: 2vw;
     }
 
+    .sec_betwen .bigGrace11 {
+        height: 6.3vw;
+    }
+
     .sec_betwen .grace_sec1 {
-        top: 7vw;
-        left: -4vw;
+        top: 8vw;
+        left: -1vw;
     }
 
     .sec_betwen .grace_sec2 {
@@ -2491,15 +2495,18 @@
         background-position: 110% 1%;
         background-size: 74%;
     }
+
     .cloud_p10 {
-    bottom: 39.2vw;
-}
+        bottom: 39.2vw;
+    }
+
     .fix_cow_p8 {
-    bottom: 18.5vw;
-}
+        bottom: 18.5vw;
+    }
+
     .fix_cow_p10 {
-    bottom: 25.5vw;
-}
+        bottom: 25.5vw;
+    }
 }
 
 @media all and (max-width:1112px) and (max-height:834px) {
