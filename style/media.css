@@ -1016,6 +1016,9 @@
 }
 
 @media all and (max-width:1440px) and (max-height:720px) {
+    .page9 .cloud {
+    top: -6.8vw;
+}
     .text_section {
         bottom: 1vw;
     }
@@ -2465,7 +2468,7 @@
     }
 
     .page9 .cloud {
-        top: -1.8vw;
+/*        top: -1.8vw;*/
     }
 
     .page8 .cont_sec .dust {
@@ -2738,7 +2741,7 @@
     }
 
     .page8 .tadj {
-        top: 53vw;
+        top: 55vw;
         padding: 0vw 0 1vw 33vw;
     }
 
@@ -3076,7 +3079,7 @@
     }
 
     .page8 .tadj {
-        top: 42vw;
+        top: 59vw;
     }
 
     .page8 .rode {
@@ -3710,7 +3713,7 @@
     }
 
     .page8 .tadj {
-        top: 75vw;
+        top: 77vw;
     }
 
     .page8 .fence {
@@ -4189,7 +4192,7 @@
     }
 
     .page8 .tadj {
-        top: 91vw;
+        top: 94vw;
     }
 
     .page8 .blue_cow_block .hills {
