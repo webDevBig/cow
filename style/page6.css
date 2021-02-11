@@ -205,11 +205,10 @@
     width: 50.6vw;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: flex-end;
     position: relative;
     top: 1vw;
-    right: 3vw;
 }
 
 .page6 .cow_section .greece_cow_p3 {

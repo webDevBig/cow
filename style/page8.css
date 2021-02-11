@@ -10,7 +10,7 @@
     flex-direction: column;
     justify-content: flex-start;
     padding: 5vw 0 0;
-/*    z-index: 15;*/
+    /*    z-index: 15;*/
 }
 
 
@@ -22,7 +22,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
-/*    z-index: 13;*/
+    /*    z-index: 13;*/
     top: -5.8vw;
 }
 
@@ -36,9 +36,9 @@
     background-size: 100%;
     object-fit: cover;
     pointer-events: none;
-/*    z-index: 13;*/
+    /*    z-index: 13;*/
     display: flex;
-       justify-content: center;
+    justify-content: center;
     align-items: center;
     top: 55vw;
     padding: 0 0 1vw 33vw;
@@ -54,7 +54,7 @@
     background-size: cover;
     object-fit: cover;
     pointer-events: none;
-/*    z-index: 14;*/
+    /*    z-index: 14;*/
     top: -21.5vw;
     display: flex;
     justify-content: flex-end;
@@ -72,6 +72,7 @@
     top: -6vw;
     right: 34vw;
 }
+
 .page8 .fence {
     background-image: url(../img/page8/fence@2x.png);
     background-position: top left;
@@ -109,7 +110,7 @@
 }
 
 .page8 .cow_section .blue_cow_block {
-    width:43vw;
+    width: 43vw;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -119,17 +120,18 @@
 }
 
 .page8 .cow_section .blue_cow_p3 {
-       width: 84%;
+    width: 84%;
     height: 17vw;
     background-image: url(../img/page8/p8_cows@2x.png);
     background-position: right bottom;
     background-repeat: no-repeat;
     background-size: 119%;
-    opacity: 1!important;
+    opacity: 1 !important;
     position: relative;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    bottom: -0.6vw;
 }
 
 .page8 .cow_section .flower1 {
@@ -141,7 +143,7 @@
 }
 
 .page8 .blue_cow_block .hills {
-   width: 94%;
+    width: 94%;
     height: 47px;
     background-image: url(../img/page8/cows_hills@2x.png);
     background-position: right;
@@ -154,19 +156,19 @@
 }
 
 .page8 .cow_section .american_cow_block {
-    width:47.6vw;
+    width: 47.6vw;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-end;
     position: relative;
-    top: 10vw;
-    left: 0vw;
+    top: 9vw;
+    margin: 0 9vw 0 0;
     z-index: 16;
 }
 
 .page8 .cow_section .american_cow_p3 {
-      width: 51%;
+    width: 51%;
     height: 25vw;
     background-image: url(../img/page8/american_cow@2x.png);
     background-position: center;
@@ -176,7 +178,6 @@
     pointer-events: none;
     opacity: 1 !important;
     position: relative;
-    right: -21vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -211,7 +212,7 @@
 }
 
 .page8 .cont_sec .dust {
-       width: 68%;
+    width: 68%;
     height: 11.8vw;
     background-image: url(../img/page8/p8_dust@2x.png);
     background-position: center;

@@ -147,16 +147,15 @@
     width: 50.6vw;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: flex-start;
+    align-items: flex-start;
     position: relative;
     top: 6.5vw;
-    left: 0vw;
 }
 
 .page9 .cow_section .china_cow_p3 {
-    width: 66%;
-    height: 20vw;
+    width: 61%;
+    height: 19vw;
     background-image: url(../img/page9/china_cow@2x.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -165,7 +164,6 @@
     pointer-events: none;
     opacity: 1 !important;
     position: relative;
-    right: 0;
     display: flex;
     justify-content: center;
     align-items: center;
