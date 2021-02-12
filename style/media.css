@@ -5031,8 +5031,8 @@
 
     .fix_cow_p10 {
         bottom: 0;
-        
-    top: 113px;
+
+        top: 113px;
 
     }
 
@@ -5078,7 +5078,7 @@
 @media all and (max-width:375px) {
     .fix_cow {
         bottom: 0;
-    top: 103px;
+        top: 103px;
     }
 
     .grass_box {
@@ -5192,6 +5192,10 @@
         height: 197px;
     }
 
+    .page10 {
+        margin: 0 0 -19vw;
+    }
+
 }
 
 @media all and (max-width:360px) {
@@ -5248,7 +5252,7 @@
     }
 
     .fix_cow_p10 {
-            top: 274px;
+        top: 274px;
     }
 
 }
