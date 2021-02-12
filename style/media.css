@@ -4680,7 +4680,7 @@
 
     .page4 .rode {
         top: 88px;
-            padding: 40px 20px 0 0;
+        padding: 40px 20px 0 0;
     }
 
     .page4 .cow_section {
@@ -5001,11 +5001,12 @@
     .page7 .cont_sec .dust {
         top: -104px;
     }
+
     .page7 .rode {
-    padding: 39px 0 0 0;
-    top: 63px;
-    justify-content: flex-end;
-}
+        padding: 39px 0 0 0;
+        top: 63px;
+        justify-content: flex-end;
+    }
 
     .page8 .tadj {
         top: 18px;
@@ -5030,7 +5031,8 @@
     }
 
     .fix_cow_p10 {
-        bottom: 450px;
+        bottom: 0;
+        top: 242px;
     }
 
     .page10 .top_section .hills1 {
@@ -5047,16 +5049,21 @@
         width: 13px;
     }
 
+    .page10 {
+        height: 500px;
+    }
 
 }
 
 @media all and (max-width:414px) {
     .page5 .tadj {
-    height: 176px;
-}
+        height: 176px;
+    }
+
     .page6 .tadj {
-    top: 6px;
-}
+        top: 6px;
+    }
+
     .page7 .cow_section .blue_cow_p3 {
         top: -29px;
     }
@@ -5072,8 +5079,8 @@
 
 @media all and (max-width:375px) {
     .fix_cow {
-           bottom: 0;
-    top: 104px;
+        bottom: 0;
+/*        top: 104px;*/
     }
 
     .grass_box {
@@ -5111,7 +5118,8 @@
         bottom: 4px;
         width: 94%;
     }
-     .page4 .rode {
+
+    .page4 .rode {
         top: 88px;
         padding: 15px 50px 0 0;
         align-items: flex-start;
@@ -5136,17 +5144,20 @@
         top: 49px;
         z-index: 1;
     }
+
     .page8 .tadj {
-    top: 29px;
-}
+        top: 29px;
+    }
+
     .page4 .flower1 {
-    left: 61.5px;
-}
+        left: 61.5px;
+    }
+
     .page4 .flower2 {
-    right: 23px;
-    margin: 0px 0 56px;
-    width: 13px;
-}
+        right: 23px;
+        margin: 0px 0 56px;
+        width: 13px;
+    }
 
     .page6 .tadj {
         top: 22px;
@@ -5189,16 +5200,19 @@
     .page3 .cow_section {
         margin: 44px 0 0;
     }
+
     .page4 .flower1 {
-    left: 57.5px;
-}
+        left: 57.5px;
+    }
+
     .page4 .tadj {
-    top: 44px;
-}
+        top: 44px;
+    }
+
     .page4 .rode {
-    top: 114px;
-    padding: 40px 20px 0 0;
-}
+        top: 114px;
+        padding: 40px 20px 0 0;
+    }
 
     .page5 .tadj {
         top: 53px;
@@ -5237,6 +5251,10 @@
 
     .fix_cow_p10 {
         top: 96px;
+    }
+
+    .page10 {
+        height: 465px;
     }
 }
 
@@ -5282,11 +5300,12 @@
     .page6 .tadj .tree_box {
         bottom: 123px;
     }
+
     .page6 h1 {
-    position: relative;
-    top: 36px;
-    z-index: 1;
-}
+        position: relative;
+        top: 36px;
+        z-index: 1;
+    }
 
     .page7 .cow_section .blue_cow_p3 {
         top: -103px;
