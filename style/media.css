@@ -4596,7 +4596,7 @@
 
     }
 
-    page3 h1,
+    .page3 h1,
     .page4 h1,
     .page5 h1,
     .page6 h1,
@@ -4610,7 +4610,7 @@
         top: 120px;
         height: 300px;
         background-position: 70% 50%;
-        padding: 0px 20px 100px 0;
+        padding: 0px 20px 160px 0;
     }
 
     .page3 .cow_section .broun_cow_block .hills {
@@ -4680,6 +4680,7 @@
 
     .page4 .rode {
         top: 88px;
+            padding: 40px 20px 0 0;
     }
 
     .page4 .cow_section {
@@ -4696,11 +4697,13 @@
 
     .page4 .flower1 {
         width: 24px;
+        left: 82.5px;
+        margin: 0 0 15px;
     }
 
     .page4 .flower2 {
-        right: 4.8vw;
-        margin: 0px 0 13vw;
+        right: 29px;
+        margin: 0px 0 65px;
         width: 16px;
     }
 
@@ -4998,6 +5001,11 @@
     .page7 .cont_sec .dust {
         top: -104px;
     }
+    .page7 .rode {
+    padding: 39px 0 0 0;
+    top: 63px;
+    justify-content: flex-end;
+}
 
     .page8 .tadj {
         top: 18px;
@@ -5042,6 +5050,12 @@
 }
 
 @media all and (max-width:414px) {
+    .page5 .tadj {
+    height: 176px;
+}
+    .page6 .tadj {
+    top: 6px;
+}
     .page7 .cow_section .blue_cow_p3 {
         top: -29px;
     }
@@ -5112,9 +5126,20 @@
 
     .page6 h1 {
         position: relative;
-        top: 31px;
+        top: 49px;
         z-index: 1;
     }
+    .page8 .tadj {
+    top: 29px;
+}
+    .page4 .flower1 {
+    left: 61.5px;
+}
+    .page4 .flower2 {
+    right: 23px;
+    margin: 0px 0 56px;
+    width: 13px;
+}
 
     .page6 .tadj {
         top: 22px;
@@ -5157,6 +5182,16 @@
     .page3 .cow_section {
         margin: 44px 0 0;
     }
+    .page4 .flower1 {
+    left: 57.5px;
+}
+    .page4 .tadj {
+    top: 44px;
+}
+    .page4 .rode {
+    top: 114px;
+    padding: 40px 20px 0 0;
+}
 
     .page5 .tadj {
         top: 53px;
@@ -5240,6 +5275,11 @@
     .page6 .tadj .tree_box {
         bottom: 123px;
     }
+    .page6 h1 {
+    position: relative;
+    top: 36px;
+    z-index: 1;
+}
 
     .page7 .cow_section .blue_cow_p3 {
         top: -103px;
