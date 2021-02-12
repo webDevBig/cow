@@ -4230,7 +4230,7 @@
     }
 
     .navbar-collapse {
-                display: none !important;
+        display: none !important;
     }
 
     .hills_one {
@@ -4640,11 +4640,33 @@
     .page7 .cont_sec .text_box,
     .page8 .cont_sec .text_box,
     .page9 .cont_sec .text_box {
-        font-size: 2.8vw;
+        font-size: 3.2vw;
         width: 68%;
         padding: 4.1vw;
         border-radius: 25px 25px 0 0;
+        opacity: 1 !important;
+        transform: translateZ(0) !important;
     }
+
+    .page7 .cont_sec .text_box {
+        width: 80%;
+        left: 0;
+    }
+
+    .page10 .text_box {
+        font-size: 3.2vw;
+        width: 88%;
+        padding: 20px 30px;
+    }
+
+    .page10 .text_box a {
+        font-size: 4.7vw;
+    }
+
+    .page10 .text_box .note {
+        font-size: 2.7vw;
+    }
+
 
     .page3 .rode {
         bottom: -11px;
@@ -4983,18 +5005,7 @@
         height: 209px;
     }
 
-    .page10 .text_box {
-        font-size: 2.8vw;
-        padding: 20px 30px;
-    }
 
-    .page10 .text_box a {
-        font-size: 3.7vw;
-    }
-
-    .page10 .text_box .note {
-        font-size: 2.3vw;
-    }
 }
 
 @media all and (max-width:414px) {
@@ -5015,20 +5026,21 @@
     .grass_box {
         bottom: 265px;
     }
+
     @keyframes grace_from_top {
-    0% {
-        bottom: -70%;
-        opacity: 0;
-    }
+        0% {
+            bottom: -70%;
+            opacity: 0;
+        }
 
-    90% {
-        opacity: 1;
-    }
+        90% {
+            opacity: 1;
+        }
 
-    100% {
-        bottom: 265px;
+        100% {
+            bottom: 265px;
+        }
     }
-}
 
     .cloud_p2 {
         margin: -159px 0 0 0vw;
