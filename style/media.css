@@ -5092,7 +5092,9 @@
 
 @media all and (max-width:375px) {
     body {
-        background-color: red;
+        background-color: #8eb3bc;
+        background: #8eb3bc;
+        background: linear-gradient(180deg, #3a7399 0%, #8eb3bc 100%);
         height: -webkit-fit-content;
         height: fit-content;
     }
