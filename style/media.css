@@ -5196,6 +5196,10 @@
     body {
         margin: 0 0 -19vw;
     }
+    .page10 .top_section .hills2
+    {
+        transform: translateZ(0)!important;
+    }
 
 }
 
