@@ -5192,7 +5192,8 @@
         height: 197px;
     }
 
-    .page10 {
+    .page10,
+    body {
         margin: 0 0 -19vw;
     }
 
