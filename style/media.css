@@ -5029,6 +5029,15 @@
         height: 209px;
     }
 
+    .page4 .flower1 {
+        width: 19px;
+    }
+
+    page4 .flower2 {
+        right: 22px;
+        width: 13px;
+    }
+
 
 }
 
@@ -5208,6 +5217,16 @@
 
     .page5 .tadj {
         top: 77px;
+    }
+
+    .page4 .flower2 {
+        right: 18px;
+        margin: 0px 0 13vw;
+        width: 10px;
+    }
+
+    .page4 .flower1 {
+        width: 15px;
     }
 
     .page5 .mexican {
