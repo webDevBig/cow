@@ -4965,7 +4965,7 @@
 
     .page10,
     body {
-/*        margin: 0 0 -19vw;*/
+        /*        margin: 0 0 -19vw;*/
     }
 
     .page10 .top_section .hills2,
@@ -5083,13 +5083,20 @@
     .page9 .cow_section .blue_cow_block {
         top: -55px;
     }
+
+    .text_section {
+        bottom: 26vw;
+        position: relative;
+    }
 }
 
 @media all and (max-width:375px) {
-    body
-    {
+    body {
         background-color: red;
+        height: -webkit-fit-content;
+        height: fit-content;
     }
+
     .fix_cow {
         bottom: 0;
         top: 103px;
