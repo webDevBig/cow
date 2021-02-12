@@ -4962,6 +4962,16 @@
         width: 95%;
         height: 140px;
     }
+
+    .page10,
+    body {
+/*        margin: 0 0 -19vw;*/
+    }
+
+    .page10 .top_section .hills2,
+    .page10 .top_section .hills1 {
+        transform: translateZ(0) !important;
+    }
 }
 
 
@@ -5076,6 +5086,10 @@
 }
 
 @media all and (max-width:375px) {
+    body
+    {
+        background-color: red;
+    }
     .fix_cow {
         bottom: 0;
         top: 103px;
@@ -5192,15 +5206,7 @@
         height: 197px;
     }
 
-    .page10,
-    body {
-        margin: 0 0 -19vw;
-    }
 
-    .page10 .top_section .hills2,
-    .page10 .top_section .hills1 {
-        transform: translateZ(0) !important;
-    }
 
 }
 
@@ -5258,7 +5264,7 @@
     }
 
     .fix_cow_p10 {
-/*        top: 274px;*/
+        /*        top: 274px;*/
     }
 
 }
@@ -5340,8 +5346,9 @@
     .page10 .top_section .hills1 {
         height: 186px;
     }
+
     .fix_cow10 {
-    bottom: 0;
-    top: 88px;
-}
+        bottom: 0;
+        top: 88px;
+    }
 }
