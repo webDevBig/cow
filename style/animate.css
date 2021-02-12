@@ -97,6 +97,7 @@
         transform: rotate(-7deg);
     }
 }
+
 @keyframes wind-six {
     0% {
         transform: rotate(-1deg);
@@ -136,6 +137,7 @@
         transform: rotate(27deg);
     }
 }
+
 @keyframes rotate {
     100% {
         transform: rotate(360deg);
@@ -147,6 +149,7 @@
         transform: rotate(-360deg);
     }
 }
+
 @keyframes wind-cactus1 {
     0% {
         transform: rotate(-2deg);
@@ -156,6 +159,7 @@
         transform: rotate(1deg);
     }
 }
+
 @keyframes wind-cactus2 {
     0% {
         transform: rotate(1deg);
@@ -165,6 +169,7 @@
         transform: rotate(-1deg);
     }
 }
+
 @keyframes wind-cactus3 {
     0% {
         transform: rotate(1deg);
@@ -174,6 +179,7 @@
         transform: rotate(-2deg);
     }
 }
+
 @keyframes wave {
     0% {
         background-position: 0;
@@ -183,26 +189,185 @@
         background-position: 1920px;
     }
 }
+
 @keyframes wave2 {
-    0%
-    {
-        left: 15vw;
-    }
-     50%
-    {
-        left: 25vw;
-    }
-     100%
-    {
-        left: 15vw;
-    }
-/*
     0% {
-        background-position: 0;
+        left: 15vw;
     }
 
-    0% {
-        background-position: 1305px;
+    50% {
+        left: 25vw;
     }
-*/
+
+    100% {
+        left: 15vw;
+    }
+}
+
+@media all and (max-width:1600px) {
+    @keyframes wave {
+        0% {
+            background-position: 0;
+        }
+
+        100% {
+            background-position: 1600px;
+        }
+    }
+}
+@media all and (max-width:1440px) {
+    @keyframes wave {
+        0% {
+            background-position: 0;
+        }
+
+        100% {
+            background-position: 1440px;
+        }
+    }
+}
+@media all and (max-width:1366px) {
+    @keyframes wave {
+        0% {
+            background-position: 0;
+        }
+
+        100% {
+            background-position: 1366px;
+        }
+    }
+}
+@media all and (max-width:1280px) {
+    @keyframes wave {
+        0% {
+            background-position: 0;
+        }
+
+        100% {
+            background-position: 1280px;
+        }
+    }
+}
+@media all and (max-width:1112px) {
+    @keyframes wave {
+        0% {
+            background-position: 0;
+        }
+
+        100% {
+            background-position: 1112px;
+        }
+    }
+}
+@media all and (max-width:1024px) {
+    @keyframes wave {
+        0% {
+            background-position: 0;
+        }
+
+        100% {
+            background-position: 1024px;
+        }
+    }
+}
+@media all and (max-width:900px) {
+    @keyframes wave {
+        0% {
+            background-position: 0;
+        }
+
+        100% {
+            background-position: 900px;
+        }
+    }
+}
+@media all and (max-width:768px) {
+    @keyframes wave {
+        0% {
+            background-position: 0;
+        }
+
+        100% {
+            background-position: 768px;
+        }
+    }
+}
+@media all and (max-width:500px) {
+    @keyframes wave {
+        0% {
+            background-position: 0;
+        }
+
+        100% {
+            background-position: 500px;
+        }
+    }
+    @keyframes wave2 {
+    0% {
+        left: 10px;
+    }
+
+    50% {
+        left: 50px;
+    }
+
+    100% {
+        left: 10px;
+    }
+}
+}
+@media all and (max-width:425px) {
+    @keyframes wave {
+        0% {
+            background-position: 0;
+        }
+
+        100% {
+            background-position: 425px;
+        }
+    }
+}
+@media all and (max-width:414px) {
+    @keyframes wave {
+        0% {
+            background-position: 0;
+        }
+
+        100% {
+            background-position: 414px;
+        }
+    }
+}
+@media all and (max-width:375px) {
+    @keyframes wave {
+        0% {
+            background-position: 0;
+        }
+
+        100% {
+            background-position: 375px;
+        }
+    }
+}
+@media all and (max-width:360px) {
+    @keyframes wave {
+        0% {
+            background-position: 0;
+        }
+
+        100% {
+            background-position: 360px;
+        }
+    }
+}
+@media all and (max-width:320px) {
+    @keyframes wave {
+        0% {
+            background-position: 0;
+        }
+
+        100% {
+            background-position: 320px;
+        }
+    }
 }

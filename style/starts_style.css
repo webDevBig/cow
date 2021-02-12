@@ -23,7 +23,7 @@
 
 .page1 .stars_box .star:nth-of-type(2),
 .page10 .stars_box .star:nth-of-type(2) {
-    left: 5w;
+    left: 5vw;
     top: 9.5vw;
     width: 13px;
     height: 13px;

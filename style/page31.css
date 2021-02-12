@@ -102,6 +102,7 @@
     pointer-events: none;
     opacity: 1 !important;
     position: relative;
+
 }
 
 .page3 .cow_section .broun_cow_block {
@@ -110,17 +111,19 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
+    top: -1vw;
+    position: relative;
 }
 
-.page3 .cow_section .broun_cow_block .hills {
-    width: 50%;
-    height: 33px;
+.page3 .cow_section .broun_cow_block .brown_cow_hills {
+    width: 59%;
+    height: 28px;
     background-image: url(../img/page3/brown_cow_hills.png);
-    background-position: right;
+    background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0 8vw 0 0;
-    left: 0;
+/*    left: 4vw;*/
+    position: relative;
 }
 
 
