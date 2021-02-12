@@ -5039,6 +5039,7 @@
 
     .page4 .flower1 {
         width: 19px;
+        left: 71.5px;
     }
 
     page4 .flower2 {
@@ -5071,7 +5072,8 @@
 
 @media all and (max-width:375px) {
     .fix_cow {
-        bottom: 278px;
+           bottom: 0;
+    top: 104px;
     }
 
     .grass_box {
@@ -5108,6 +5110,11 @@
     .page3 .cow_section .brown_cow {
         bottom: 4px;
         width: 94%;
+    }
+     .page4 .rode {
+        top: 88px;
+        padding: 15px 50px 0 0;
+        align-items: flex-start;
     }
 
     .page5 .cow_section {
@@ -5229,7 +5236,7 @@
     }
 
     .fix_cow_p10 {
-        bottom: 467px;
+        top: 96px;
     }
 }
 
@@ -5297,9 +5304,6 @@
         top: -120px;
     }
 
-    .fix_cow_p10 {
-        bottom: 489px;
-    }
 
     .page10 .big_grass {
         width: 101%;
