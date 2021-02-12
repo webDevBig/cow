@@ -5032,7 +5032,9 @@
 
     .fix_cow_p10 {
         bottom: 0;
-        top: 242px;
+        
+    top: 113px;
+
     }
 
     .page10 .top_section .hills1 {
@@ -5049,9 +5051,11 @@
         width: 13px;
     }
 
+/*
     .page10 {
         height: 500px;
     }
+*/
 
 }
 
@@ -5080,7 +5084,7 @@
 @media all and (max-width:375px) {
     .fix_cow {
         bottom: 0;
-/*        top: 104px;*/
+    top: 103px;
     }
 
     .grass_box {
@@ -5250,7 +5254,7 @@
     }
 
     .fix_cow_p10 {
-        top: 96px;
+            top: 274px;
     }
 
     .page10 {
