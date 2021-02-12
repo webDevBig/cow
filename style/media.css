@@ -4740,10 +4740,11 @@
         background-size: contain;
         background-position: initial;
         right: 0;
-        top: -25vw;
+        top: -125px;
         height: 160px;
         width: 100%;
-        padding: 0;
+        padding: 0 0 0 13px;
+        justify-content: flex-start;
     }
 
     .page5 .cow_section {
@@ -4967,13 +4968,35 @@
         margin: 26px 0 0;
     }
 
+    .page5 .tadj {
+        top: 51px;
+        background-position: 67% 50%;
+        height: 167px;
+    }
+
+    .page5 .mexican {
+        top: -97px;
+    }
+
     .page6 .rode {
         height: 468px;
         top: 171px;
     }
 
+    .page6 {
+        background-attachment: scroll;
+    }
+
     .page7 .cow_section .blue_cow_p3 {
         top: -21px;
+    }
+
+    .page7 .cow_section .spain_cow_block {
+        top: -29px;
+    }
+
+    .page7 .cont_sec .dust {
+        top: -104px;
     }
 
     .page8 .tadj {
@@ -4982,6 +5005,7 @@
 
     .page9 .tadj {
         top: -19px;
+        padding: 61px 0 0;
     }
 
     .page9 .cow_section .blue_cow_block {
@@ -5023,6 +5047,10 @@
 }
 
 @media all and (max-width:375px) {
+    .fix_cow {
+        bottom: 278px;
+    }
+
     .grass_box {
         bottom: 265px;
     }
@@ -5059,6 +5087,26 @@
         width: 94%;
     }
 
+    .page5 .cow_section {
+        bottom: 233px;
+        padding: 0 0 0 0vw;
+    }
+
+    .page5 .tadj {
+        top: 116px;
+    }
+
+    .page5 .mexican {
+        top: -48px;
+        right: -118px;
+    }
+
+    .page6 h1 {
+        position: relative;
+        top: 31px;
+        z-index: 1;
+    }
+
     .page6 .tadj {
         top: 22px;
         padding: 0 90px 20px 0;
@@ -5067,6 +5115,14 @@
 
     .page7 .cow_section .blue_cow_p3 {
         top: -60px;
+    }
+
+    .page7 .cow_section .spain_cow_block {
+        top: -58px;
+    }
+
+    .page7 .cont_sec .dust {
+        top: -115px;
     }
 
     .page8 .cow_section .blue_cow_block {
