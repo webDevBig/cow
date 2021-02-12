@@ -5050,11 +5050,6 @@
         width: 13px;
     }
 
-/*
-    .page10 {
-        height: 500px;
-    }
-*/
 
 }
 
@@ -5256,9 +5251,6 @@
             top: 274px;
     }
 
-    .page10 {
-        height: 465px;
-    }
 }
 
 @media all and (max-width:320px) {
