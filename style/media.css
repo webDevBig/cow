@@ -5196,9 +5196,10 @@
     body {
         margin: 0 0 -19vw;
     }
-    .page10 .top_section .hills2
-    {
-        transform: translateZ(0)!important;
+
+    .page10 .top_section .hills2,
+    .page10 .top_section .hills1 {
+        transform: translateZ(0) !important;
     }
 
 }
@@ -5257,7 +5258,7 @@
     }
 
     .fix_cow_p10 {
-        top: 274px;
+/*        top: 274px;*/
     }
 
 }
@@ -5339,4 +5340,8 @@
     .page10 .top_section .hills1 {
         height: 186px;
     }
+    .fix_cow10 {
+    bottom: 0;
+    top: 88px;
+}
 }
