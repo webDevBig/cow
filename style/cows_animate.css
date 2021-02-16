@@ -547,8 +547,34 @@
 
 }
 
-@media all and (max-width:1440px) and (max-height:770px) {}
-@media all and (max-width:1440px) and (max-height:750px) {}
+@media all and (max-width:1440px) and (max-height:770px) {
+    .egypt_cow_animate_p6 {
+        top: 5vw;
+    }
+
+    .greece_cow_animate {
+        top: 1.2vw;
+    }
+    .greece_cow_animate_p8 {
+    top: 3vw;
+}
+
+    .fix_cow_p6 {
+        top: 4vw;
+    }
+
+    .fix_cow_p9 {
+        top: -1vw;
+    }
+
+    .fix_cow_p10 {
+        top: 5vw;
+    }
+
+    .india_cow_animate_p6 {
+        top: 6.5vw;
+    }
+}
 
 @media all and (max-width:1440px) and (max-height:720px) {
 
@@ -612,6 +638,10 @@
         padding: 0 0 35vw;
     }
 }
+
+@media all and (max-width:1280px) and (max-height:770px) {}
+
+@media all and (max-width:1280px) and (max-height:750px) {}
 
 @media all and (max-width:1280px) and (max-height:720px) {}
 
