@@ -10,6 +10,7 @@
     margin: 0;
     right: 0;
     background-color: #dfeef7;
+    margin: -58vw 0 0;
 }
 
 .page4 .cloud {
@@ -35,7 +36,6 @@
     background-size: cover;
     object-fit: cover;
     pointer-events: none;
-    /*    z-index: 8;*/
     display: flex;
     justify-content: flex-end;
     top: 16.2vw;
@@ -76,7 +76,6 @@
     justify-content: space-between;
     align-items: flex-end;
     position: absolute;
-    /*    z-index: 10;*/
     padding: 0 0vw 0 0vw;
     bottom: 16.5vw;
 }
@@ -89,18 +88,6 @@
     align-items: flex-start;
     position: relative;
     z-index: 9;
-}
-
-.page4 .cow_section .blue_cow_p3 {
-    width: 76%;
-    height: 29.6vw;
-    background-image: url(../img/page4/brown_cow.png);
-    background-position: -98% 101%;
-    background-repeat: no-repeat;
-    background-size: 91%;
-    object-fit: cover;
-    pointer-events: none;
-    opacity: 1 !important;
 }
 
 .page4 .blue_cow_block .hills {
@@ -143,7 +130,6 @@
     align-items: center;
 }
 
-
 .page4 .flower1 {
     position: absolute;
     left: 10.5vw;
@@ -181,7 +167,6 @@
     justify-content: center;
     align-items: flex-start;
     position: absolute;
-    /*    z-index: 10;*/
     bottom: -0.4vw;
 }
 
@@ -209,7 +194,6 @@
     align-items: center;
     position: absolute;
     left: 0;
-    /*    top: 1vw;*/
 }
 
 .page4 .left_box img {

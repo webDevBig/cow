@@ -11,6 +11,7 @@
     justify-content: flex-start;
     padding: 0vw 0 0;
     right: 0;
+    margin:-54.2vw 0 -2vw;
 }
 
 
@@ -22,7 +23,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
-    /* z-index: 11; */
     top: -5.2vw;
     right: 0;
 }
@@ -37,7 +37,6 @@
     background-size: cover;
     object-fit: cover;
     pointer-events: none;
-    /*    z-index: 12;*/
     display: flex;
     justify-content: flex-end;
     top: 33vw;
@@ -95,7 +94,6 @@
     align-items: flex-end;
     position: absolute;
     bottom: 17vw;
-    right: 0;
 }
 
 .page5 .cow_section .blue_cow_block {
@@ -107,24 +105,8 @@
     position: relative;
     right: 0;
 }
-
-.page5 .cow_section .blue_cow_p3 {
-    width: 73%;
-    height: 27.6vw;
-    background-image: url(../img/page5/p5_cows@2x.png);
-    background-position: 101% 101%;
-    background-repeat: no-repeat;
-    background-size: 124%;
-    opacity: 1 !important;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    z-index: 8;
-}
-
 .page5 .cow_section .flower1 {
     position: absolute;
-    /*    left: 9vw;*/
     margin: 0 0 0vw;
     width: 52px;
     animation: rotate 18s ease alternate infinite;

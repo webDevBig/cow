@@ -1,6 +1,5 @@
 @import url(page1.css);
 @import url(page2.css);
-/*@import url(page3.css);*/
 @import url(page31.css);
 @import url(page4.css);
 @import url(page5.css);
@@ -9,22 +8,21 @@
 @import url(page8.css);
 @import url(page9.css);
 @import url(page10.css);
+@import url(cows_animate.css);
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html
-{
+
+html {
     height: 100%;
 }
 
 body,
 html {
-    overflow-x: hidden;
     width: 100%;
-/*    height: 100%;*/
     margin: 0;
 }
 
@@ -36,6 +34,7 @@ body {
     align-items: flex-start;
     position: relative;
     font-family: "Montserrat", sans-serif;
+    overflow-x: hidden;
 }
 
 .menu {
@@ -87,12 +86,10 @@ body {
 }
 
 .menu .fa-chevron-up {
-    /*    margin: 0 0 25px;*/
     cursor: pointer;
 }
 
 .menu .fa-chevron-down {
-    /*    margin: 18px 0 0;*/
     cursor: pointer;
 }
 
@@ -162,7 +159,6 @@ body {
     height: 100vh;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    /*    overflow-x: hidden;*/
 }
 
 
@@ -275,4 +271,43 @@ body {
     top: 0.5vw;
     position: relative;
     height: 15vw;
+}
+
+.menu a.dropdown-item {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+}
+
+.menu a.dropdown-item img {
+    width: 23px;
+}
+
+.menu .dropdown {
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+    margin: 0 15px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    background-image: none!important;
+}
+.menu .dropdown i
+{
+    position: relative;
+    z-index: 1001;
+}
+.menu .dropdown i.show
+{
+    color: #6386a4;
+}
+.menu .dropdown .face
+{
+   width: 13px;
 }

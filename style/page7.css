@@ -10,19 +10,17 @@
     flex-direction: column;
     justify-content: flex-start;
     padding: 5vw 0 0;
-/*        z-index: 14;*/
+    margin: -57.7vw 0 0;
 }
 
 .page7 .cloud {
     width: 100%;
     height: 13vw;
-    /* background-color: #D7EBF9; */
     background-image: url(../img/page7/spain_cloud@2x.png);
     background-position: 29% 50%;
     background-repeat: no-repeat;
     background-size: 108%;
     position: absolute;
-/*    z-index: 14;*/
     top: -5.8vw;
 }
 
@@ -36,7 +34,6 @@
     background-size: 113%;
     object-fit: cover;
     pointer-events: none;
-/*    z-index: 14;*/
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -53,8 +50,7 @@
     background-size: cover;
     object-fit: cover;
     pointer-events: none;
-/*    z-index: 14;*/
-    top: -39vw;
+    top: -36.5vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,22 +88,8 @@
     align-items: flex-start;
     position: relative;
     z-index: 14;
+    top: -2vw;
 }
-
-.page7 .cow_section .blue_cow_p3 {
-   width: 84%;
-    height: 24vw;
-    background-image: url(../img/page7/spain_cows@2x.png);
-    background-position: right bottom;
-    background-repeat: no-repeat;
-    background-size: 156%;
-    opacity: 1 !important;
-    position: relative;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-
 .page7 .cow_section .flower1 {
     position: absolute;
     left: 12.3vw;
@@ -125,8 +107,6 @@
     background-size: 118%;
     object-fit: cover;
     pointer-events: none;
-    position: absolute;
-    bottom: -3px;
 }
 
 .page7 .cow_section .spain_cow_block {
@@ -165,7 +145,7 @@
     position: relative;
     top: 2.7vw;
     left: 2.6vw;
-    margin:0 11vw 0 0;
+    margin: 0 11vw 0 0;
 }
 
 .page7 .cont_sec {

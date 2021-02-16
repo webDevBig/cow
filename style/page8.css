@@ -10,7 +10,7 @@
     flex-direction: column;
     justify-content: flex-start;
     padding: 5vw 0 0;
-    /*    z-index: 15;*/
+    margin: -57vw 0 0;
 }
 
 
@@ -22,7 +22,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
-    /*    z-index: 13;*/
     top: -5.8vw;
 }
 
@@ -36,7 +35,6 @@
     background-size: 100%;
     object-fit: cover;
     pointer-events: none;
-    /*    z-index: 13;*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,7 +52,6 @@
     background-size: cover;
     object-fit: cover;
     pointer-events: none;
-    /*    z-index: 14;*/
     top: -21.5vw;
     display: flex;
     justify-content: flex-end;
@@ -70,7 +67,6 @@
     height: 10vw;
     position: absolute;
     top: -6vw;
-    right: 34vw;
 }
 
 .page8 .fence {
@@ -117,21 +113,6 @@
     align-items: flex-start;
     position: relative;
     z-index: 15;
-}
-
-.page8 .cow_section .blue_cow_p3 {
-    width: 84%;
-    height: 17vw;
-    background-image: url(../img/page8/p8_cows@2x.png);
-    background-position: right bottom;
-    background-repeat: no-repeat;
-    background-size: 119%;
-    opacity: 1 !important;
-    position: relative;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    bottom: -0.6vw;
 }
 
 .page8 .cow_section .flower1 {

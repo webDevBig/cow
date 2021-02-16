@@ -14,7 +14,7 @@ var seven2 = 7 * ph + (ph * 0.5);
 var eight2 = 8 * ph + (0.5 * h);
 window.onscroll = function () {
     scrolled2 = window.pageYOffset || document.documentElement.scrollTop;
-//    console.log(scrolled2);
+    //    console.log(scrolled2);
 
     if (scrolled2 > ph / 2) {
         $('.fa-chevron-up').css({
@@ -30,34 +30,99 @@ window.onscroll = function () {
             'background-image': 'url(img/f_gray@2x.png)',
             border: '2px solid #A7A9AC'
         });
+
     }
     if (scrolled2 > two2) {
-        $('.fix_cow').addClass('fix_cow_p3')
-        $('.fix_cow').removeClass('fix_cow_p6'),
+        //        add class blue cow
+        $('.fix_cow').addClass('fix_cow_p3'),
+
+
+            //remove class for blue cow
+            $('.fix_cow').removeClass('fix_cow_p6'),
             $('.fix_cow').removeClass('fix_cow_p7'),
             $('.fix_cow').removeClass('fix_cow_p8'),
-            $('.fix_cow').removeClass('fix_cow_p9'),
             $('.fix_cow').removeClass('fix_cow_p10')
+
+
+
+        //remove class for india cow
+        $('.india_cow_animate').removeClass('india_cow_animate_p6')
+        $('.india_cow_animate').removeClass('india_cow_animate_p7')
+        $('.india_cow_animate').removeClass('india_cow_animate_p8')
+        $('.india_cow_animate').removeClass('india_cow_animate_p9')
+
+
+        //remove class for egypt cow
+        $('.egypt_cow_animate').removeClass('egypt_cow_animate_p6')
+        $('.egypt_cow_animate').removeClass('egypt_cow_animate_p7')
+        $('.egypt_cow_animate').removeClass('egypt_cow_animate_p8')
+        $('.egypt_cow_animate').removeClass('egypt_cow_animate_p9')
     }
     if (scrolled2 > four2) {
-
-        $('.fix_cow').removeClass('fix_cow_p3'),
+        //        add class blue cow
+        $('.fix_cow').addClass('fix_cow_p6'),
+            //remove class for blue cow
+            $('.fix_cow').removeClass('fix_cow_p3'),
             $('.fix_cow').removeClass('fix_cow_p7'),
             $('.fix_cow').removeClass('fix_cow_p8'),
-            $('.fix_cow').removeClass('fix_cow_p9'),
             $('.fix_cow').removeClass('fix_cow_p10'),
-            $('.fix_cow').addClass('fix_cow_p6')
+
+            //remove class for mexico cow
+            $('.mexico_cow_animate').removeClass('mexico_cow_animate_p7')
+        $('.mexico_cow_animate').removeClass('mexico_cow_animate_p8')
+        $('.mexico_cow_animate').removeClass('mexico_cow_animate_p9')
+
+        //        add class for india cow
+        $('.india_cow_animate').addClass('india_cow_animate_p6')
+        //remove class for india cow
+        $('.india_cow_animate').removeClass('india_cow_animate_p7')
+        $('.india_cow_animate').removeClass('india_cow_animate_p8')
+        $('.india_cow_animate').removeClass('india_cow_animate_p9')
+
+        //        add class for egypt cow
+        $('.egypt_cow_animate').addClass('egypt_cow_animate_p6')
+        //remove class for egypt cow
+        $('.egypt_cow_animate').removeClass('egypt_cow_animate_p7')
+        $('.egypt_cow_animate').removeClass('egypt_cow_animate_p8')
+        $('.egypt_cow_animate').removeClass('egypt_cow_animate_p9')
+
     }
     if (scrolled2 > five2) {
-        $('.fix_cow').removeClass('fix_cow_p6'),
+        //        add class blue cow
+        $('.fix_cow').addClass('fix_cow_p7'),
+
+            //        remove class for blue cow
+            $('.fix_cow').removeClass('fix_cow_p6'),
             $('.fix_cow').removeClass('fix_cow_p3'),
             $('.fix_cow').removeClass('fix_cow_p8'),
             $('.fix_cow').removeClass('fix_cow_p9'),
             $('.fix_cow').removeClass('fix_cow_p10'),
-            $('.fix_cow').addClass('fix_cow_p7'),
-            $(".share_box").css({
-                color: "white"
-            });
+
+
+            //        add class for mexico cow
+            $('.mexico_cow_animate').addClass('mexico_cow_animate_p7')
+        //           remove class for mexico cow
+        $('.greece_cow_animate').removeClass('greece_cow_animate_p8')
+        $('.mexico_cow_animate').removeClass('mexico_cow_animate_p8')
+        $('.mexico_cow_animate').removeClass('mexico_cow_animate_p9')
+
+        //        add class for india cow
+        $('.india_cow_animate').addClass('india_cow_animate_p7'),
+            //remove class for india cow
+            $('.india_cow_animate').removeClass('india_cow_animate_p6')
+        $('.india_cow_animate').removeClass('india_cow_animate_p8')
+        $('.india_cow_animate').removeClass('india_cow_animate_p9')
+
+        //        add class for egypt cow
+        $('.egypt_cow_animate').addClass('egypt_cow_animate_p7'),
+            //remove class for egypt cow
+            $('.egypt_cow_animate').removeClass('egypt_cow_animate_p6')
+        $('.egypt_cow_animate').removeClass('egypt_cow_animate_p8')
+        $('.egypt_cow_animate').removeClass('egypt_cow_animate_p9')
+
+        $(".share_box").css({
+            color: "white"
+        });
         $(".menu").css({
             display: "flex"
         });
@@ -67,23 +132,79 @@ window.onscroll = function () {
         });
     }
     if (scrolled2 > six2) {
-        $('.fix_cow').removeClass('fix_cow_p3'),
+        //        add class for blue cow
+        $('.fix_cow').addClass('fix_cow_p8'),
+            //            remove class for blue cow
+            $('.fix_cow').removeClass('fix_cow_p3'),
             $('.fix_cow').removeClass('fix_cow_p6'),
             $('.fix_cow').removeClass('fix_cow_p7'),
             $('.fix_cow').removeClass('fix_cow_p9'),
             $('.fix_cow').removeClass('fix_cow_p10'),
-            $('.fix_cow').addClass('fix_cow_p8')
+            //            add class for mexico cow
+            $('.mexico_cow_animate').addClass('mexico_cow_animate_p8')
+        //           remove class for mexico cow
+        $('.mexico_cow_animate').removeClass('mexico_cow_animate_p7')
+        $('.mexico_cow_animate').removeClass('mexico_cow_animate_p9')
+
+        //            add class for greece cow
+        $('.greece_cow_animate').addClass('greece_cow_animate_p8')
+        //            remove class for greece cow
+        $('.greece_cow_animate').removeClass('greece_cow_animate_p9')
+
+        //        add class for india cow
+        $('.india_cow_animate').addClass('india_cow_animate_p8'),
+            //remove class for india cow
+            $('.india_cow_animate').removeClass('india_cow_animate_p6')
+        $('.india_cow_animate').removeClass('india_cow_animate_p7')
+        $('.india_cow_animate').removeClass('india_cow_animate_p9')
+
+
+        //        add class for egypt cow
+        $('.egypt_cow_animate').addClass('egypt_cow_animate_p8')
+        //remove class for egypt cow
+        $('.egypt_cow_animate').removeClass('egypt_cow_animate_p6')
+        $('.egypt_cow_animate').removeClass('egypt_cow_animate_p7')
+        $('.egypt_cow_animate').removeClass('egypt_cow_animate_p9')
     }
     if (scrolled2 > seven2) {
-        $('.fix_cow').removeClass('fix_cow_p3'),
+        //        add class for blue cow
+        $('.fix_cow').addClass('fix_cow_p9'),
+            //            remove class for blue cow
+            $('.fix_cow').removeClass('fix_cow_p3'),
             $('.fix_cow').removeClass('fix_cow_p6'),
             $('.fix_cow').removeClass('fix_cow_p7'),
-            $('.fix_cow').removeClass('fix_cow_p8'),
             $('.fix_cow').removeClass('fix_cow_p10'),
-            $('.fix_cow').addClass('fix_cow_p9'),
-            $(".menu").css({
-                display: "flex"
-            });
+            $('.fix_cow').removeClass('fix_cow_p8')
+
+        //            add class for greece cow
+        $('.greece_cow_animate').addClass('greece_cow_animate_p9'),
+            //            remove class for greece cow
+            $('.greece_cow_animate').removeClass('greece_cow_animate_p8')
+
+        //            add class for mexico cow
+        $('.mexico_cow_animate').addClass('mexico_cow_animate_p9'),
+            //           remove class for mexico cow
+            $('.mexico_cow_animate').removeClass('mexico_cow_animate_p7'),
+            $('.mexico_cow_animate').removeClass('mexico_cow_animate_p8')
+
+
+        //        add class for india cow
+        $('.india_cow_animate').addClass('india_cow_animate_p9'),
+            //remove class for india cow
+            $('.india_cow_animate').removeClass('india_cow_animate_p6')
+        $('.india_cow_animate').removeClass('india_cow_animate_p7')
+        $('.india_cow_animate').removeClass('india_cow_animate_p8')
+
+
+        //        add class for egypt cow
+        $('.egypt_cow_animate').addClass('egypt_cow_animate_p9'),
+            //remove class for egypt cow
+            $('.egypt_cow_animate').removeClass('egypt_cow_animate_p6')
+        $('.egypt_cow_animate').removeClass('egypt_cow_animate_p7')
+        $('.egypt_cow_animate').removeClass('egypt_cow_animate_p8')
+        $(".menu").css({
+            display: "flex"
+        });
         $(".share_box").css({
             color: "#A7A9AC"
         });
@@ -93,15 +214,17 @@ window.onscroll = function () {
         });
     }
     if (scrolled2 > eight2) {
-        $('.fix_cow').removeClass('fix_cow_p3'),
+        //        add class for blue cow
+        $('.fix_cow').addClass('fix_cow_p10'),
+            //            remove class for blue cow
+            $('.fix_cow').removeClass('fix_cow_p3'),
             $('.fix_cow').removeClass('fix_cow_p6'),
             $('.fix_cow').removeClass('fix_cow_p7'),
             $('.fix_cow').removeClass('fix_cow_p8'),
-            $('.fix_cow').removeClass('fix_cow_p9'),
-            $('.fix_cow').addClass('fix_cow_p10'),
-             $(".menu").css({
-            display: "none"
-        });
+
+            $(".menu").css({
+                display: "none"
+            });
     }
 
     if (one2 > scrolled2) {
