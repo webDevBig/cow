@@ -7,10 +7,6 @@
         right: 4vw;
     }
 
-    .page2 .cont .text_box {
-        left: -4.5vw;
-    }
-
     .page3 .rode {
         bottom: 15vw;
     }
@@ -239,10 +235,6 @@
     .cloud_p2 {
         height: 39vw;
         margin: -11vw 0 0 0vw;
-    }
-
-    .page2 .cont .text_box {
-        left: -3.5vw;
     }
 
     .sec_betwen {
@@ -3199,10 +3191,6 @@
         top: 9vw;
     }
 
-    .page2 .cont .text_box {
-        left: -9.5vw;
-    }
-
     .sec_betwen {
         margin: -20vw 0 0;
     }
@@ -3616,10 +3604,6 @@
 
     .page2 {
         padding: 19vw 0 0;
-    }
-
-    .page2 .cont .text_box {
-        /*        left: -19.5vw;*/
     }
 
     .page2 .cont .text_box {
@@ -4254,7 +4238,6 @@
     }
 
     .page2 .cont .text_box {
-        left: -23.5vw;
         width: 82%;
     }
 
@@ -4887,7 +4870,6 @@
     }
 
     .page2 .cont .text_box {
-        left: 0;
         width: 82%;
         font-size: 3.2vw;
         padding: 15px 25px;
