@@ -87,7 +87,7 @@
     justify-content: space-between;
     align-items: flex-end;
     position: absolute;
-    z-index: 14;
+    z-index: 15;
     padding: 0 0vw 0 0vw;
     bottom: 22.5vw;
 }
@@ -157,6 +157,7 @@
     align-items: flex-end;
     position: absolute;
     bottom: 0;
+    z-index: 16;
 }
 
 .page9 .cont_sec .text_box {
