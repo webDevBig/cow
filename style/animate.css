@@ -280,6 +280,19 @@
             background-position: 900px;
         }
     }
+   @keyframes wave2 {
+    0% {
+        left: 5vw;
+    }
+
+    50% {
+        left: 10vw;
+    }
+
+    100% {
+        left: 5vw;
+    }
+}
 }
 @media all and (max-width:768px) {
     @keyframes wave {
