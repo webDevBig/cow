@@ -1035,6 +1035,10 @@
 }
 
 @media all and (max-width:900px) and (max-height:1280px) {
+    [data-aos=fade-left] {
+        transform: translate3d(32px, 0, 0);
+    }
+
     .fix_cow {
         position: absolute;
         left: 12vw;
@@ -1275,4 +1279,90 @@
     }
 }
 
-@media all and (max-width:500px) {}
+@media all and (max-width:500px) {
+    .s3 {
+        padding: 123px 0 0;
+    }
+
+    .s3 .prl {
+        top: 23.5vw;
+    }
+
+    .mexico_cow_animate {
+        top: 29vw;
+    }
+
+    .mexico_cow_animate_p7 {
+        top: 9vw;
+    }
+
+    .mexico_cow_animate_p8 {
+        top: 5px;
+    }
+    .mexico_cow_animate_p9 {
+    top: -26px;
+}
+
+    .india_cow_animate_p7 {
+        top: 22vw;
+    }
+    .india_cow_animate_p8 {
+    top: 85px;
+}
+
+    .egypt_cow_animate_p7 {
+        top: 22vw;
+    }
+    .egypt_cow_animate_p8 {
+    top: 75px;
+}
+
+    .fix_cow_p7 {
+        top: 21.5vw;
+    }
+    .fix_cow_p8 {
+    top: 77px;
+}
+    .greece_cow_animate_p8 {
+    top: 15px;
+    left: -13.9vw;
+}
+    .greece_cow_animate_p9 {
+    top: -25px;
+}
+    .spain_cow_animate {
+    top: 8px;
+}
+
+    .s5 {
+        padding: 115px 0 0;
+    }
+
+    .s4 {
+        padding: 348.5px 0 0;
+    }
+
+    .s2 {
+        padding: 105px 0 0;
+    }
+
+    .s1 {
+        padding: 220px 0 0;
+    }
+
+    .prl5 {
+        padding: 0 0 506px;
+    }
+
+  .prl {
+    padding: 0 0 487px;
+}
+
+    .prl1 {
+        padding: 0 0 554px;
+    }
+
+    .prl11 {
+        padding: 0 0 175px;
+    }
+}
